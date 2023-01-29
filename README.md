@@ -1,11 +1,9 @@
 # PREMIER-LEAGUE-2022-23
-The last couple of years have clearly reflected the exponential rise of the English Premier League in the world of football. English's first division league has successfully ousted almost every other football league in the world to claim its position at the very top of the football food chain.
-Whether you watch it for the intensity, or the clash of different football styles, or if you view it as someone interested in investing in football, the Premier League is the perfect place to be.
-This season, like all the other seasons, has been no different. Whilst some consistently high-performing sides have seen their form dip halfway through the season, other sides have stepped up to get a more clear view of the silverware. 
+With a potential TV audience of 4.7 billion people, the English Premier League's exponential rise to the top of the football food chain has been nothing short of remarkable. Whether it is the intensity, the revenue, the recruitment of talent, global interest, or even the level of coaching, England's first division league is head and shoulders above the rest of its European counteparts. This Premier League season, just like all other seasons, has been no different. While some consistently high-performing sides, like Liverpool, have seen their form dip halfway through the season, other sides like Newcastle United as well as Arsenal, have stepped up to rub shoulders with Manchester City. 
 
 The idea behind the project:
-The basic idea behind this project was to utilize the data available for this current PL season to forecast how the rest of the seasons plays out. 
-All match data up until matchday week 19 has been taken into account to segregate clubs based on different factors that influence a game of football. These include shots on target per goals ratio, game winning percentage, points earned per game, clean sheets per 90, etc.
+The basic idea behind this project was to utilize the data available for this current PL season to segregate teams based on different factors as well as to forecast how the rest of the seasons plays out. 
+All match data up until matchday week 19 has been taken into account to differentiate clubs based on different factors that influence a game of football. These include shots on target per goals ratio, game winning percentage, points earned per game, clean sheets per 90, etc.
 
 A walkthrough of the project:
 
@@ -27,6 +25,8 @@ This workbook was generally created to engineer out a model that would aid in un
 -> For predictive modelling, tools like data validation, forecasting tools like what-if analysis, and statistical functions, 
 preferably binomial inverse, were used to perform simulations. 
 ![2023-01-28](https://user-images.githubusercontent.com/123303003/215220254-ee0ddae5-0502-4d2b-a27b-8ffc39a2d4a1.png)
+
+-> The home side was given an advantage of 0.5 over the opposition away side. A total of 10,000 games were simulated each time and the results (home win/draw/away win) were then compiled using the COUNTIF function in Microsoft Excel. 
 
 -> To ensure the quality of our prediction model, these were the factors that were taken into consideration:
 
